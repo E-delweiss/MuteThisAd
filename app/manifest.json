@@ -1,0 +1,16 @@
+{
+	"manifest_version":2,
+	"name":"ShutPup",
+	"version":"0.001",
+	"author":"Thopak",
+	"description":"Mutes the video when an ad is on.",
+	"content_scripts":[
+		{
+		"matches":["https://www.youtube.com/watch*"],
+		"js":["content.js"]
+		}
+		],
+    "chrome_url_overrides": {
+      "newtab": "main.html"
+    }
+}
