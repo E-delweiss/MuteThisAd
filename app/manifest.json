@@ -1,9 +1,21 @@
 {
 	"manifest_version":2,
-	"name":"ShutPup",
+	"name":"MuteThisAd",
 	"version":"0.001",
-	"author":"Thopak",
+	"author":"ThOpak",
 	"description":"Mutes the video when an ad is on.",
+	"icons":{
+    	"16":"",
+    	"48":"",
+    	"128":""
+    	},
+    "page_action":{
+        "default_icon":{
+        	"16":"",
+        	"48":"",
+        	"128":""
+            }
+        },
 	"content_scripts":[
 		{
 		"matches":["https://www.youtube.com/watch*"],
