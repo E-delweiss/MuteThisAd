@@ -1,1 +1,1 @@
-# mute_ads
+# MuteThisAd
