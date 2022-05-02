@@ -6,7 +6,7 @@
 	"description":"Mutes the video when an ad is on.",
 	"content_scripts":[
 		{
-		"matches":["https://www.youtube.com/watch*"],
+		"matches":["https://www.youtube.com/*"],
 		"js":["content.js"]
 		}
 		],
