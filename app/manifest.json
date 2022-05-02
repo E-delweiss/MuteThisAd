@@ -6,10 +6,14 @@
 	"description":"Mutes the video when an ad is on.",
 	"content_scripts":[
 		{
-		"matches":["https://www.youtube.com/*"],
-		"js":["content.js"]
+		"matches":["http://www.youtube.com/*", "http://youtube.com/*", "https://www.youtube.com/*", "https://youtube.com/*"],
+		"js": ["start.js"]
 		}
 		],
+    "web_accessible_resources": ["content.js"],
+    
+    
+    
     "chrome_url_overrides": {
       "newtab": "main.html"
     }

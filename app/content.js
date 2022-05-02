@@ -1,1 +1,1 @@
-console.log("Chrome extension ready to go")
+console.log("Chrome extension ready to go")$('video').play()$('video').pause()$('video').currentTime = 100
